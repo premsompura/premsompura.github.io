@@ -19,6 +19,7 @@ var App = React.createClass({
         'intro' : this.showWelcomeMsg,
         'help'  : this.showHelp,
         'cat'   : this.catFile,
+	'twitter' : this.openLink('https://twitter.com/PremSompura'),
 	'linkedin': this.openLink('https://in.linkedin.com/in/premsompura'),
         'github': this.openLink('http://github.com/premsompura'),
         'blog'  : this.openLink('http://blog.premsompura.me')
@@ -46,10 +47,11 @@ var App = React.createClass({
   },
   showHelp: function() {
       this.addHistory("help - this help text");
+      this.addHistory("twitter - follow me on twitter");	
       this.addHistory("linkedin - view my linkedin profile");
       this.addHistory("github - view my github profile");
       this.addHistory("intro - print intro message");
-      this.addHistory("blog - read some stuff that I've written");
+      this.addHistory("blog - under construction");
       this.addHistory("clear - clear screen");
       this.addHistory("cat - print contents of a file");
       this.addHistory("ls - list files");
