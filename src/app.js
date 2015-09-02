@@ -22,6 +22,7 @@ var App = React.createClass({
 	'twitter' : this.openLink('https://twitter.com/PremSompura'),
 	'linkedin': this.openLink('https://in.linkedin.com/in/premsompura'),
         'github': this.openLink('http://github.com/premsompura'),
+	'stackoverflow' : this.openLink('http://stackoverflow.com/users/5033007/prem-sompura'),
         'blog'  : this.openLink('http://blog.premsompura.me')
       }
     });
@@ -47,6 +48,7 @@ var App = React.createClass({
   },
   showHelp: function() {
       this.addHistory("help - this help text");
+      this.addHistory("stackoverflow - view my stackoverflow profile");
       this.addHistory("twitter - follow me on twitter");	
       this.addHistory("linkedin - view my linkedin profile");
       this.addHistory("github - view my github profile");
