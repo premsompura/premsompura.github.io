@@ -34,9 +34,7 @@ var App = React.createClass({
   },
   catFile: function(arg) {
       if (arg === "README.md") {
-          this.addHistory('### REACT TERM');
           this.addHistory("Adios, Thanks for visiting.");
-          this.addHistory("type `source` to view the source code");
       } else {
           this.addHistory("cat: " +  arg + ": No such file or directory");
       }
