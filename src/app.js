@@ -48,6 +48,7 @@ var App = React.createClass({
   },
   showHelp: function() {
       this.addHistory("help - this help text");
+      this.addHistory("linkedin - view my linkedin profile");
       this.addHistory("github - view my github profile");
       this.addHistory("intro - print intro message");
       this.addHistory("blog - read some stuff that I've written");
