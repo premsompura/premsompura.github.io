@@ -1,6 +1,9 @@
 # React Term
+This is my portfolio site
 
-![img](shot.png)
+# Credits
+
+I'm using this project by [Prakhar Srivastava](https://github.com/prakhar1989). Details can be found [here](https://github.com/prakhar1989/react-term)
 
 ### Run
 ```
